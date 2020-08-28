@@ -1,0 +1,94 @@
+
+.SocialAnchor{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+    margin: 2rem 2rem 0 1rem;
+}
+
+.youtube{
+    
+    background-color: #F9EA01;
+    width: 108px;
+    height: 68px;
+    border-radius: 20%;
+    border: 3px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.youtube:visited{
+    color: #000000;
+}
+
+.youtube p{
+    font-family: blenderpro;
+    font-size: 20px;
+    
+}
+
+.youtube img{
+    height: 35px;
+    width: 35px;
+}
+
+.facebook{
+    margin-top: 2rem;
+    background-color: #F9EA01;
+    width: 108px;
+    height: 68px;
+    border-radius: 20%;
+    border: 3px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.facebook p{
+    font-family: blenderpro;
+    font-size: 20px;
+}
+
+.facebook:visited{
+    color: #000000;
+}
+
+.facebook img{
+    height: 35px;
+    width: 35px;
+}
+
+.twitter{
+    margin-top: 2rem;
+    background-color: #F9EA01;
+    width: 108px;
+    height: 68px;
+    border-radius: 20%;
+    border: 3px solid #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.twitter:visited{
+    color: #000000;
+}
+
+.twitter p{
+    font-family: blenderpro;
+    font-size: 20px;
+}
+
+
+.twitter img{
+    height: 35px;
+    width: 35px;
+}

@@ -1,0 +1,55 @@
+.cyberpunklogo{
+    width: 130px;
+    height: 143px;
+    max-width: 100%;
+}
+
+.navbar-container{
+    display: flex;
+    align-content: center;
+    margin: 8px 16px 0 16px ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.navbar-left{
+    align-content: center;
+    display: flex;
+    /* flex: 2; */
+    
+}
+
+
+.navtitle{
+    font-size: 100px;
+    font-family: cyberpunk;
+    padding-bottom: 12px;
+}
+
+.navbar-right{
+    /* margin-left: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* flex: 1; */
+}
+
+.navbutton{
+    font-family: designer;
+    font-size: 36px;
+    padding: 48px;
+}
+
+.dividerbar{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* 
+@media only screen and (max-width: 860px) {
+.navbar-container{
+    width: 100%;
+}
+} */

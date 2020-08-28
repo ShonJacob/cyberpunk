@@ -1,0 +1,212 @@
+/* Background image */
+.background-container{
+    width: 100%;
+    height: 120vh;
+    background-image: url("../../assets/cyberpunk2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* CONTENT AREA 1 */
+.contentarea-1{
+   display: flex;
+   /* justify-content: space-around; */
+   /* flex-wrap: wrap; */
+}
+
+/* Gameplay text area */
+.gameplayArea{
+    margin: 8rem 2rem 0 2rem;
+    border: 1px solid #000000;
+    background-color: #F9EA01;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 12rem;
+    min-width: 526px;
+    max-width: 1068px;
+}
+
+.gameplayArea h1{
+    font-family: designer;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+    /* width: 100%; */
+}
+
+.gameplayArea img{
+    width: 100%;
+}
+
+.gameplayArea p{
+    margin: 0 1rem 1rem 1rem;
+    font-family: blenderpro;
+    font-size: 24px;
+    overflow: auto;
+}
+    
+/* VideoPlayer */
+.svgElement{
+    min-width: 35.5rem;
+    /* position: relative; */
+    overflow: hidden;
+    height: 30.6rem;
+    width: 35.5rem;
+    margin: 2rem 2rem 0 2rem ;
+    
+}
+
+.video{
+    /* width: 35.4rem; */
+    height: 30.5rem;
+    /* object-fit: cover; */
+    overflow: hidden;
+    clip-path: url(#clipPath);
+    /* position: relative; */
+    /* border: 3px solid #F9EA01; */
+    /* z-index: inherit; */
+}
+
+
+.youtubeAnchor{
+    position: relative;
+    z-index: 1;
+}
+
+.youtubeAnchor img{
+    width: 130px;
+    height: 85px;
+    z-index: 2;
+}
+
+
+
+/* CONTENT AREA 2 */
+.contentarea-2{
+    display: flex;
+    margin-top: 2rem;
+    /* max-width: 391px; */
+    flex-wrap: wrap;
+}
+
+
+.keanuImg{
+    margin: 0 2rem 0 2rem;
+    height: 24.4rem;
+    width: 40rem;
+    border: 3px solid #F9EA01;
+    border-radius: 10px;
+    
+}
+
+
+.maincharacter{
+    border: 1px solid #000000;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 10px;
+    background-color: #F9EA01;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.maincharacter h1{
+    font-family: designer;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+}
+
+.maincharacter img{
+    width: 100%;
+}
+
+.maincharacter p{
+    margin: 0 1rem 1rem 1rem;
+    font-family: blenderpro;
+    font-size: 24px;
+    overflow: auto;
+}
+
+.preorderarea{
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: 9.9rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+
+.preorderSVG{
+    width: 31rem;
+    height:5.9rem;
+    overflow: hidden;
+    min-width: 31rem;
+}
+
+.preorderSVG a{
+    text-decoration: none;
+    font-size: 2.8rem;
+    font-family: blenderpro;
+    
+}
+
+.preorderSVG a:visited{
+    color: #000000;
+}
+
+
+.releasedate{
+    margin: 4rem 2rem 0 0;
+    border: 1px solid #000000;
+    background-color: #F9EA01;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 14rem;
+}
+
+.releasedate h1{
+    font-family: designer;
+    margin-left: 1rem;
+    letter-spacing: 1px;
+}
+
+.releasedate img{
+    width: 100%;
+}
+
+.releasedate p{
+    margin: 0 1rem 1rem 1rem;
+    font-family: blenderpro;
+    font-size: 24px;
+    overflow: auto;
+}
+
+.releasedate p:nth-of-type(2){
+    align-self: center;
+}
+
+.platformNames{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.platformNames img:nth-of-type(1){
+    height: 1.8rem;
+    width: 10.1rem;
+}
+
+.platformNames img:nth-of-type(2){
+    height: 1.8rem;
+    width: 2.5rem;
+}
+
+.platformNames img:nth-of-type(3){
+    height: 1.8rem;
+    width: 8rem;
+}

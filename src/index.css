@@ -1,13 +1,50 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding : 0;
+  box-sizing: border-box;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+@font-face{
+  font-family: 'cyberpunk';
+  src: url(./fonts/Cyberpunk.ttf) format('truetype'),
+       url(./fonts/Cyberpunk.woff) format('woff');
+}
+
+
+@font-face{
+  font-family: 'designer';
+  src: url(./fonts/Designer.ttf) format('truetype'),
+       url(./fonts/Designer.woff) format('woff');
+}
+
+
+@font-face{
+  font-family: 'feuer';
+  src: url(./fonts/Feuerfeste.ttf) format('truetype'),
+       url(./fonts/Feuerfeste.woff) format('woff');
+}
+
+@font-face{
+  font-family: 'transrobo';
+  src: url(./fonts/TransRobotics.ttf) format('truetype'),
+       url(./fonts/TransRobotics.woff) format('woff');
+}
+
+@font-face{
+  font-family: 'transrobocondensed';
+  src: url(./fonts/TransRoboticsCondensed.ttf) format('truetype'),
+       url(./fonts/TransRoboticsCondensed.woff) format('woff');
+}
+
+@font-face{
+  font-family: 'blenderpro';
+  src: url(./fonts/BlenderPro.ttf) format('truetype'),
+       url(./fonts/BlenderPro.woff) format('woff');
+}
+
