@@ -14,7 +14,6 @@ const socialanchor = () =>{
                    <p>Youtube</p>
                 </a>
  
-
                 <a className='facebook' href="https://www.facebook.com/CyberpunkGame" target="_blank" rel="noopener noreferrer">
                     <img src={facebook} alt='facebook' />
                     <p>Facebook</p>

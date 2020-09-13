@@ -19,7 +19,6 @@
     
 }
 
-
 .navtitle{
     font-size: 100px;
     font-family: cyberpunk;
@@ -47,9 +46,25 @@
     justify-content: flex-end;
 }
 
-/* 
-@media only screen and (max-width: 860px) {
-.navbar-container{
-    width: 100%;
+
+@media only screen and (max-width: 1512px) {
+    .navbar-left{
+        width: 100%;
+        justify-content: center;
+    }
+    .navbar-right{
+        width: 100%;
+    }
+
+    
 }
-} */
+
+@media only screen and (max-width: 1000px){
+    .cyberpunklogo{
+        width: 100px;
+        height: 110px;
+    }
+    .navtitle{
+        font-size: 80px;
+    }
+}

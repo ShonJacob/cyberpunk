@@ -1,15 +1,15 @@
 
 .SocialAnchor{
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     /* align-items: center; */
-    margin: 2rem 2rem 0 1rem;
+    margin: 2rem 1rem 0 1rem;
 }
 
 .youtube{
-    
-    background-color: #F9EA01;
+    background-color: red;
     width: 108px;
     height: 68px;
     border-radius: 20%;
@@ -28,7 +28,6 @@
 .youtube p{
     font-family: blenderpro;
     font-size: 20px;
-    
 }
 
 .youtube img{
@@ -38,7 +37,7 @@
 
 .facebook{
     margin-top: 2rem;
-    background-color: #F9EA01;
+    background-color: skyblue;
     width: 108px;
     height: 68px;
     border-radius: 20%;
@@ -66,7 +65,7 @@
 
 .twitter{
     margin-top: 2rem;
-    background-color: #F9EA01;
+    background-color: #0059ff;
     width: 108px;
     height: 68px;
     border-radius: 20%;
@@ -91,4 +90,19 @@
 .twitter img{
     height: 35px;
     width: 35px;
+}
+
+@media (max-width: 1512px){
+    .SocialAnchor{
+        width: 70%;
+        flex-direction: row;
+        justify-content: space-evenly;
+        
+    }
+    .facebook{
+        margin-top: 0;
+    }
+    .twitter{
+        margin-top: 0;
+    }
 }

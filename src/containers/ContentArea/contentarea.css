@@ -1,10 +1,11 @@
 /* Background image */
 .background-container{
     width: 100%;
-    height: 120vh;
+    height: 100%;
     background-image: url("../../assets/cyberpunk2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 /* CONTENT AREA 1 */
@@ -24,8 +25,8 @@
     flex-direction: column;
     justify-content: flex-start;
     height: 12rem;
-    min-width: 526px;
-    max-width: 1068px;
+    min-width: 500px;
+    max-width: 1100px;
 }
 
 .gameplayArea h1{
@@ -87,14 +88,16 @@
     display: flex;
     margin-top: 2rem;
     /* max-width: 391px; */
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 
 .keanuImg{
     margin: 0 2rem 0 2rem;
     height: 24.4rem;
+    /* height: auto; */
     width: 40rem;
+    /* width: 35%; */
     border: 3px solid #F9EA01;
     border-radius: 10px;
     
@@ -130,13 +133,13 @@
 }
 
 .preorderarea{
-    margin-top: 2rem;
-    margin-left: auto;
-    margin-right: 9.9rem;
+    margin-top: 0;
+    margin-left: 7.5rem;
+    margin-right: 1rem;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-end;
+    align-items: center;
+    justify-content: flex-start;
     
 }
 
@@ -160,13 +163,14 @@
 
 
 .releasedate{
-    margin: 4rem 2rem 0 0;
+    margin: 2rem 0 0 0;
     border: 1px solid #000000;
     background-color: #F9EA01;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     height: 14rem;
 }
 
@@ -209,4 +213,32 @@
 .platformNames img:nth-of-type(3){
     height: 1.8rem;
     width: 8rem;
+}
+
+
+@media (max-width: 1512px){
+    .contentarea-1{
+        flex-direction: column;
+        align-items: center;
+    }
+    .gameplayArea{
+        min-width: 400px;
+        max-width: 600px;
+    }
+    .contentarea-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .maincharacter{
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+    .preorderarea{
+        margin: 2rem 0 1rem 0;
+    }
+
+    .maincharacter{
+        min-width: 500px;
+    }
+    
 }
