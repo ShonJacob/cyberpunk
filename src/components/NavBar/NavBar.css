@@ -68,3 +68,12 @@
         font-size: 80px;
     }
 }
+
+@media only screen and (max-width: 1000px){
+    .navtitle{
+        font-size: 60px;
+    }
+    .navbutton{
+        font-size: 25px;
+    }
+}

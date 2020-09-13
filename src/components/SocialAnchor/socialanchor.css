@@ -94,10 +94,14 @@
 
 @media (max-width: 1512px){
     .SocialAnchor{
+        min-width: 360px;
         width: 70%;
         flex-direction: row;
         justify-content: space-evenly;
-        
+        background: linear-gradient(90deg, rgba(246,255,0,1) 24%, rgba(0,212,255,1) 100%);
+        padding: 1rem 0 1rem 0;
+        border: 5px solid black;
+        border-radius: 25%;
     }
     .facebook{
         margin-top: 0;

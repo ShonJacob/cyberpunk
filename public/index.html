@@ -3,6 +3,14 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      window.onload = function() {
+          if (screen.width < 600) {
+              var mvp = document.getElementById('vp');
+              mvp.setAttribute('content','user-scalable=no,width=600');
+          }
+      }
+    </script>
     <meta name="theme-color" content="#000000" />
     <meta
       name="description"
